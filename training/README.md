@@ -74,7 +74,7 @@ The training script uses a lightweight neural network:
 
 This architecture is ideal for small domain-specific datasets.
 ---
-##🔄 When Should You Retrain?
+## 🔄 When Should You Retrain?
 
 Retrain the model if you:
 - Add new intents to data2.json
@@ -85,14 +85,14 @@ Retrain the model if you:
 
 Just run training.py again — new model files will overwrite the older ones.
 ---
-##📁 Output Files Explained
+## 📁 Output Files Explained
 File	Purpose
 - model.h5	Trained TensorFlow model used for prediction
 - texts.pkl	List of all unique words in vocabulary
 - labels.pkl	List of all intent categories (tags)
 - data2.json	Intents dataset used for training
 ---
-##⭐ Training Tip
+## ⭐ Training Tip
 - If you expand your dataset significantly:
 - Increase epochs
 - Increase hidden layer size
