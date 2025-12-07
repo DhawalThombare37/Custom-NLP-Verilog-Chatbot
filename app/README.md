@@ -1,7 +1,7 @@
 # About App.py
 ---
 User can directly run app.py after running training script 
-and loading models locally in there Dev Environment using local loading paths as required and view their site on local host.
+and loading models locally in their Dev Environment using local loading paths as required and view their site on local host.
 ---
 
 ---
