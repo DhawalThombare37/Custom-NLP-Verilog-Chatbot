@@ -1,1 +1,54 @@
+# ------------------------------
+# PYTHON IGNORE
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------
+# ALLOW MODEL FILES (IMPORTANT)
+# ------------------------------
+# Do NOT ignore model.h5, texts.pkl, labels.pkl
+# They must remain accessible for the project.
+# So we tell git to not ignore them explicitly.
+
+!app/model/model.h5
+!app/model/texts.pkl
+!app/model/labels.pkl
+
+# ------------------------------
+# SYSTEM / OS FILES
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# LOGS / TEMP
+# ------------------------------
+logs/
+*.log
+*.tmp
+*.cache
+
+# ------------------------------
+# EDITOR / TOOL FILES
+# ------------------------------
+.vscode/
+.idea/
+.pytest_cache/
+dist/
+build/
 
