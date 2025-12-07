@@ -2,7 +2,7 @@
 ## 👋 Welcome to Custom-NLP-Verilog-Chatbot
 <img width="986" height="834" alt="image" src="https://github.com/user-attachments/assets/17446257-cdae-4ebf-8628-b2d42a8d5189" />
 This project is a custom-built NLP chatbot trained on a domain-specific Verilog dataset.  
-Using **deep learning** , **intents-based NLP** , and a clean **Flask web interface** , the chatbot can answer questions related to Verilog HDL, digital logic, circuits, and RTL design.
+Using **Deep learning** , **Intents-based NLP** , and a clean **Flask web interface** , the chatbot can answer questions related to Verilog HDL, digital logic, circuits, and RTL design.
 
 It showcases end-to-end chatbot development—from dataset creation and model training to web deployment.
 
