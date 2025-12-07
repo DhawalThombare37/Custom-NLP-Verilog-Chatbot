@@ -8,5 +8,5 @@ This folder contains the trained NLP model and supporting files used by the chat
 
 These files are required for the chatbot to run.  
 If any file is missing, retrain the model using:
-
+python training/training.py
 
