@@ -2,7 +2,7 @@
 ## 👋 Welcome to Custom-NLP-Verilog-Chatbot
 <img width="986" height="834" alt="image" src="https://github.com/user-attachments/assets/17446257-cdae-4ebf-8628-b2d42a8d5189" />
 This project is a custom-built NLP chatbot trained on a domain-specific Verilog dataset.  
-Using **deep learning**, **intents-based NLP**, and a clean **Flask web interface**, the chatbot can answer questions related to Verilog HDL, digital logic, circuits, and RTL design.
+Using **deep learning** , **intents-based NLP** , and a clean **Flask web interface** , the chatbot can answer questions related to Verilog HDL, digital logic, circuits, and RTL design.
 
 It showcases end-to-end chatbot development—from dataset creation and model training to web deployment.
 
@@ -18,7 +18,7 @@ See top-level structure in the repository. Key parts:
 - `training/` — training script & notes.
 - `requirements.txt` — Python dependencies.
 
-**Structure Overview : **
+**Structure Overview :**
 ```markdown
 Custom-NLP-Verilog-Chatbot/
 │
@@ -60,11 +60,11 @@ Custom-NLP-Verilog-Chatbot/
 
 ## Quick start (in development environment)
 1. Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # Linux/macOS
-   .venv\Scripts\activate      # Windows PowerShell
-   ```
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+.venv\Scripts\activate      # Windows PowerShell
+```
 2.Install dependencies:
 ```bash
 pip install -r requirements.txt
